@@ -25,18 +25,18 @@ for (var i=0; i<9; i++) {
 //       }
 //     }
 //   })
-// }ues
+// }
 
 
 //set up click listener for Reset button
 document.getElementById('reset').addEventListener('click', function(e){
   for (var i=0; i<9; i++) {
-    board[i] = "" //reset board to blank val
+    board[i] = "" //reset board to blank values
   }
   drawBoard();
 })
 
-//given an HTML element, it will determin the index of the square on the board
+//given an HTML element, it will determine the index of the square on the board
 function getSquareIndex(target) {
   for (var j=0; j<9; j++) {
     // check if the currented iterated square is the square that was clicked
