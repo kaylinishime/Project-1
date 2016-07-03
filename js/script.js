@@ -79,6 +79,5 @@ function checkWin(){
       board[winCombo[1]] === board[winCombo[2]] &&
       board[winCombo[0]] !== "") {
         alert(turn + ' Wins!')
-      }
   }
 }
